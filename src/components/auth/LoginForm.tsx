@@ -73,8 +73,7 @@ export default function LoginForm({ loading, onSubmit }: LoginFormProps) {
         {loading ? "Signing in..." : "Login"}
       </AnimatedButton>
 
-      <div className="flex items-center justify-between gap-3 text-[14px] text-slate-400 pt-1">
-        <span className="font-medium text-slate-300">Protected workspace</span>
+      <div className="flex items-center justify-end gap-3 text-[14px] text-slate-400 pt-1">
         <Link to="/register" className="font-medium text-violet-300 transition hover:text-violet-200">
           Create an account
         </Link>
